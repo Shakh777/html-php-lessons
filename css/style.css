@@ -1,0 +1,43 @@
+ body{
+     padding: 0;
+     margin: 0;
+ }
+ #header {
+     background-color: gray;
+     font-size : 18px;
+     color: darkred;
+     text-align : center;
+     padding : 20px 0;
+ }
+ #content{
+     clear: both;
+     overflow: auto;
+ }
+ #nav{
+    background-color: snow;
+     float: left;
+     width: 25%;
+     height: 500px;
+ }
+
+ #nav li{
+list-style: none;
+ }
+
+#nav li a{
+    color: rgb(15, 2, 129); 
+}
+
+ #page_content{
+    background-color: rgba(59, 61, 56, 0.534);
+     float: right;
+     width: 25%;
+     height: 500px;
+ }
+
+#footer{
+    padding: 40px;
+    color: blue;
+    background-color: chocolate;
+    text-align: center;
+}
